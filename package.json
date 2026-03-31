@@ -1,0 +1,19 @@
+{
+  "name": "todo-advanced-root",
+  "version": "1.0.0",
+  "description": "Full-stack Todo App Root",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "heroku-postbuild": "cd server && npm install"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1"
+  }
+}
